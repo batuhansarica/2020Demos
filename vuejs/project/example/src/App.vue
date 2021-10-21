@@ -1,26 +1,24 @@
 <template>
   <div id="app">
-    <div id="nav">
+    <div >
       <Navbar></Navbar>
-      
-
-      
-     
+  
     </div>
-    
-    
-   
     <router-view />
+    <About></About>
   </div>
 </template>
 
 
 <script>
 import Navbar from "@/components/Navbar.vue";
+import About from "@/components/About.vue";
 
 export default {
   components: {
     Navbar,
+    About,
+
     
   },
 }
@@ -30,5 +28,7 @@ export default {
 
 
 <style lang="scss">
-
+.about{
+  position: absolute;
+}
 </style>

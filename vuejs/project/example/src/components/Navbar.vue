@@ -37,12 +37,13 @@
       </b-navbar-nav>
     </b-collapse>
    
-  </b-navbar> -->
+  </b-navbar>  -->
 
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <span class="navbar-brand mb-0 h1">Filografi Evi</span>
+    <span class="navbar-brand mb-0 h1" >
+      <img class="imglogo" src="../img/logo.jpg">Filografi Evi</span>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -56,10 +57,10 @@
          <router-link to="/card"> <a class="nav-link" href="#">Ürünler</a> </router-link>
         </li>
         <li class="nav-item">
-          <a class="nav-link">Hakkımızda</a>
+         <router-link to="/about"> <a class="nav-link">Hakkımızda</a> </router-link>
         </li>
         <li class="nav-item">
-          <a class="nav-link">İletişim</a>
+          <router-link to="/contact"> <a class="nav-link">İletişim</a> </router-link>
         </li>
       </ul>
       <form class="d-flex">
@@ -84,6 +85,12 @@ export default {
 }
 .nav-link{
   font-size: 20px;
+}
+.imglogo{
+width: 100px;
+height: 40px;
+object-fit: contain;
+
 }
 /*#nav-collapse{
 position: relative;

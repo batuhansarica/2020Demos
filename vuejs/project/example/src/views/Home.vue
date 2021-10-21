@@ -1,6 +1,9 @@
 <template>
+<div id="home">
+  <div>
 <Slide></Slide>
-  
+</div>
+  </div>
 </template>
 
 <script>
