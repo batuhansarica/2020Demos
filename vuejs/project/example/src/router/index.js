@@ -24,10 +24,10 @@ const routes = [
       import( "../components/Contact.vue"),
   },
   {
-    path: "/about",
-    name: "About",
+    path: "/history",
+    name: "History",
     component: () =>
-      import( "../components/About.vue"),
+      import( "../components/History.vue"),
   },
 ];
 
